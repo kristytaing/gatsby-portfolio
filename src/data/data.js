@@ -1,10 +1,10 @@
 module.exports = {
-  SiteTitle: 'Abdelali',
+  SiteTitle: 'Kristy',
   Sitelogo: '#',
-  SiteLogoText: 'Abdelali',
-  SiteAuthor: 'Abdelali Dahir',
+  SiteLogoText: 'Kristy',
+  SiteAuthor: 'Kristy Taing',
   SiteDescription: 'Front End Developer',
-  defaultDescription: 'Software engineer!', 
+  defaultDescription: 'Software engineer!',
   githubApiQuery: `query ($number_of_repos: Int!) {
     viewer {
       name
@@ -40,20 +40,20 @@ module.exports = {
   }`,
   githubApiVariables: {
     number_of_repos: 12,
-  }, 
+  },
   SiteSocialLinks: {
-    twitter: 'https://twitter.com/AbdaliDahir',
-    github: 'https://github.com/AbdaliDahir',
-    linkedin: 'https://www.linkedin.com/in/abdelali-dahir-0b5344111/',
+    twitter: 'https://twitter.com/KristyTaing',
+    github: 'https://github.com/KristyTaing',
+    linkedin: 'https://www.linkedin.com/in/kristytaing/',
   },
   SiteAddress: {
-    city: 'Casablanca',
-    region: 'CurvaSud',
-    country: 'Morocco',
-    zipCode: 'ZipCode',
+    city: 'San Francisco',
+    region: 'California',
+    country: 'US',
+    zipCode: '94110',
   },
   SiteContact: {
-    email: 'abdali.dahir@gmail.com',
+    email: 'kristy.taing@gmail.com',
     phone: 'phone number',
   },
   SiteCopyright: '2020',
