@@ -25,7 +25,7 @@ export const NavbarElement = styled.div`
 
 export const NavbarList = styled.ul`
   justify: right;
-  padding-left: 0;
+  padding-right: 0;
   display: grid;
   direction: rtl;
   grid-template-columns: repeat(4, 1fr);

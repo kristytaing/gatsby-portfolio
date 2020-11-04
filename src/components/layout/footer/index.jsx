@@ -10,6 +10,10 @@ const Footer = () => {
 			<FooterStyle>
 				<ContainerLayout>
 					<FooterBody>
+						<div>
+							<p className="text-primary quote"> Let's chat! </p>
+							<ButtonDefault href={`mailto:${data.SiteContact.email}`}> Contact me </ButtonDefault>
+						</div>
 						<FooterSocialMedia>
 							{socialMedia.map(({ id, name, url }) => (
 								<li key={id}>
@@ -19,10 +23,6 @@ const Footer = () => {
 								</li>
 							))}
 						</FooterSocialMedia>
-						<div>
-							<p className="text-primary quote"> Let's chat! </p>
-							<ButtonDefault href={`mailto:${data.SiteContact.email}`}> Contact me </ButtonDefault>
-						</div>
 					</FooterBody>
 					<div className="box">
 						<SubRight> Design for happy humans. </SubRight>

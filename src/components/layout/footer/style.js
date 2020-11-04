@@ -6,7 +6,7 @@ export const FooterStyle = styled.footer`
 	padding-bottom: 8rem;
 	z-index: 0;
 	position: relative;
-	text-align: left;
+	text-align: center;
 	@media(min-width: ${variables.breakpointPhone}) {
 		background: linear-gradient(to top, #efe9e9, transparent 50%);
 	}
@@ -32,7 +32,6 @@ export const SubRight = styled.p`
 	font-size: 1rem;
 	line-height: 1.8;
 	letter-spacing:2px;
-	text-transform: capitalize;
 	margin-bottom: 20px;
 	font-family: "GT-Walsheim-Pro-Bold";
 `
@@ -40,29 +39,24 @@ export const CopyRight = styled.p`
 	font-size: 11px;
 	line-height: 1.8;
 	letter-spacing:1px;
-	text-transform: capitalize;
 `
 export const FooterBody = styled.div`
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	display: flex;
+	flex-direction: column;
 	align-items: center;
-	@media(max-width: ${variables.breakpointPhone}) {
-		grid-template-columns: 1fr;
-	}
 `
 export const FooterSocialMedia = styled.ul`
-	list-style: none;
+	display: flex;
 	padding-left: 0;
-	@media(max-width: ${variables.breakpointPhone}) {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-	}
+	list-style: none;
+	align-items: center;
+	justify-content: space-between;
 	li {
 		margin-bottom: 1.5rem;
 	}
 `
 export const MediaLink = styled.a`
+	margin: 0 1rem 0 1rem;
 	padding: 1rem 0rem;
 	padding-bottom: .5rem;
 	line-height: 1;
