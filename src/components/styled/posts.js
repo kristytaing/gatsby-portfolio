@@ -36,7 +36,8 @@ export const ArticleBody = styled.div `
   }
   margin-top: 5rem;
   p {
-    font-size: 1.5rem;
+    text-align: left;
+    font-size: 1.25rem;
     font-family: "GT-Walsheim-Pro-Medium";
   }
 `

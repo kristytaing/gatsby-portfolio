@@ -2,8 +2,9 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
+import { Calendar } from 'react-feather'
 
-import {Intro, Title, ArticlePost, ArticleBody} from '../../components/styled/posts'
+import {Intro, Title, ArticlePost, ArticleBody, SmallText} from '../../components/styled/posts'
 import {ContainerLayout} from '../../components/common'
 
 
@@ -25,6 +26,10 @@ const portfolioWork = ({data, pageContext, location}) => {
                 <Title>
                   {work.frontmatter.title}
                 </Title>
+                <SmallText>
+                  <Calendar className="align-middle text-primary" width="18" height="18" />
+                  <span className="align-middle"> {work.frontmatter.date} </span>
+                </SmallText>
               </header>
 
               <ArticleBody dangerouslySetInnerHTML={{ __html: work.html }} />
