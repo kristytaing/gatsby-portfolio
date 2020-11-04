@@ -40,14 +40,14 @@ const WorkIndex = ({ data }) => {
                           </Link>
                         </Title>
                       </header>
-                        <Text
-                          dangerouslySetInnerHTML={{
-                            __html: node.frontmatter.description || node.excerpt,
-                          }}
-                        />
-                        <div>
-                          {node.frontmatter.tags.map((tag, index) => (<Tag key={index}>{tag}</Tag>))}
-                        </div>
+                      <Text
+                        dangerouslySetInnerHTML={{
+                          __html: node.frontmatter.description || node.excerpt,
+                        }}
+                      />
+                      <div>
+                        {node.frontmatter.tags.map((tag, index) => (<Tag key={index}>{tag}</Tag>))}
+                      </div>
                     </div>
                   </WorkPost>
                 )

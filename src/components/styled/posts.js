@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import variables from '../../data/variables';
 
 export const Intro = styled.div`
   padding: 8rem 0 4rem 0;
@@ -30,6 +31,9 @@ export const SmallText = styled.small`
     }
 `
 export const ArticleBody = styled.div `
+  a {
+    color: ${variables.primary};
+  }
   margin-top: 5rem;
   p {
     font-size: 1.5rem;
