@@ -2,7 +2,7 @@
 title: Starbucks
 tags: ['Android', 'Java', 'Kotlin', 'UI']
 category: Mobile UI
-image: './starbucks-hero.png'
+image: './blog-image.png'
 date: "2018-05-01"
 description: "The Starbucks Tech Center's digital products team worked on the Starbucks mobile app for Android."
 ---
