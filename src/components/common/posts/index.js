@@ -22,10 +22,9 @@ export const Title = styled.h1`
 `
 export const SubTitle = styled.h3`
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-transform: capitalize;
   font-family: "GT-Walsheim-Pro-Bold";
-  text-decoration: underline;
   margin-bottom: 6rem;
 `
 export const Text = styled.p`
