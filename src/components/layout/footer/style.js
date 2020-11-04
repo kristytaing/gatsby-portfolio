@@ -3,7 +3,7 @@ import variables from '../../../data/variables';
 
 export const FooterStyle = styled.footer`
 	padding-top: 1rem;
-  padding-bottom: 8rem;
+	padding-bottom: 8rem;
 	z-index: 0;
 	position: relative;
 	text-align: left;
@@ -17,6 +17,7 @@ export const FooterStyle = styled.footer`
 		text-align: center;
 	}
 	.quote {
+		margin: 0;
 		font-size: 4rem;
 		font-family: "GT-Walsheim-Pro-Bold";
 		line-height: 1.2;
@@ -34,7 +35,7 @@ export const SubRight = styled.p`
 	text-transform: capitalize;
 	margin-bottom: 20px;
 	font-family: "GT-Walsheim-Pro-Bold";
-`	
+`
 export const CopyRight = styled.p`
 	font-size: 11px;
 	line-height: 1.8;
@@ -69,5 +70,5 @@ export const MediaLink = styled.a`
   text-transform: capitalize;
   font-family: "GT-Walsheim-Pro-Bold";
 	color: ${variables.primary};
-	
+
 `

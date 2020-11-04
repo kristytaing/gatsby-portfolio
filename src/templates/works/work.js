@@ -2,9 +2,8 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-import { Calendar } from 'react-feather'
 
-import {Intro, Title, ArticlePost, SmallText, ArticleBody} from '../../components/styled/posts'
+import {Intro, Title, ArticlePost, ArticleBody} from '../../components/styled/posts'
 import {ContainerLayout} from '../../components/common'
 
 

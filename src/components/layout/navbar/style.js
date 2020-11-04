@@ -24,8 +24,10 @@ export const NavbarElement = styled.div`
 `
 
 export const NavbarList = styled.ul`
+  justify: right;
   padding-left: 0;
   display: grid;
+  direction: rtl;
   grid-template-columns: repeat(4, 1fr);
   list-style: none;
   > li a {
@@ -39,7 +41,7 @@ export const NavbarList = styled.ul`
       width: 18px;
       margin-right: 5px;
     }
-    span, 
+    span,
     svg {
       display: block;
       vertical-align: middle;

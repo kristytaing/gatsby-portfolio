@@ -1,8 +1,8 @@
 [
   {
     "id": 0,
-    "name": "github",
-    "url": "https://github.com/kristytaing"
+    "name": "instagram",
+    "url": "https://www.instagram.com/kristytaing"
   },
   {
     "id": 1,
@@ -16,7 +16,8 @@
   },
   {
     "id": 3,
-    "name": "instagram",
-    "url": "https://www.instagram.com/kristytaing"
+    "name": "github",
+    "url": "https://github.com/kristytaing"
   }
+
 ]

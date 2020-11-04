@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import variables from '../../../data/variables';
 
 export const Intro = styled.div`
-  padding: 8rem 0 4rem 0;
+  padding: 4rem 0 4rem 0;
   font-family: "GT-Walsheim-Pro-Regular";
 `;
 export const HeaderIntro = styled.header`
@@ -21,17 +21,19 @@ export const Title = styled.h1`
   }
 `
 export const SubTitle = styled.h3`
+  text-align: center;
   font-size: 2rem;
   text-transform: capitalize;
   font-family: "GT-Walsheim-Pro-Bold";
   text-decoration: underline;
+  margin-bottom: 6rem;
 `
 export const Text = styled.p`
   font-size: .98rem;
   line-height: 2;
   color: #000000;
-  margin-top: 2rem;
-  text-align: justify;
+  margin-top: 0;
+  text-align: left;
   @media(max-width: ${variables.breakpointPhone}) {
     margin-top: 1rem;
     font-size: .8rem;

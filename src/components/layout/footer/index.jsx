@@ -20,7 +20,7 @@ const Footer = () => {
 							))}
 						</FooterSocialMedia>
 						<div>
-							<p className="text-primary quote"> Want to reach out? </p>
+							<p className="text-primary quote"> Let's chat! </p>
 							<ButtonDefault href={`mailto:${data.SiteContact.email}`}> Contact me </ButtonDefault>
 						</div>
 					</FooterBody>
