@@ -3,7 +3,7 @@ title: ClearBrain
 date: "2019-05-01"
 category: Software Engineeering Internship
 tags: ['React', 'css', 'js', 'dashboard']
-image: './blog-image.png'
+image: './clearbrain-hero.png'
 description: "Startup building the first self-serve AI platform for growth marketing. Their automated ML platform helps companies predict and retarget users when they are most likely to purchase."
 ---
 
