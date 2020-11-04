@@ -12,25 +12,25 @@ const Footer = () => {
 					<FooterBody>
 						<FooterSocialMedia>
 							{socialMedia.map(({ id, name, url }) => (
-								<li key={id}> 
+								<li key={id}>
 									<MediaLink className="lined-link" href={url} target="_blank" rel="noopener noreferrer" aria-label={`follow us on ${name}`}>
 										{name}
-									</MediaLink> 
+									</MediaLink>
 								</li>
 							))}
 						</FooterSocialMedia>
 						<div>
-							<p className="text-primary quote"> Ready to take the next step and work together? </p>
+							<p className="text-primary quote"> Want to reach out? </p>
 							<ButtonDefault href={`mailto:${data.SiteContact.email}`}> Contact me </ButtonDefault>
 						</div>
 					</FooterBody>
 					<div className="box">
-						<SubRight> Good design doesn't date. Bad design does. </SubRight>
+						<SubRight> Design for happy humans. </SubRight>
 						<CopyRight className="text-dark">
-							© 
-							<span> {new Date().getFullYear()}, Built with {` `} 
+							©
+							<span> {new Date().getFullYear()}, Built with {` `}
 								<a href="https://www.gatsbyjs.org">Gatsby</a>{" "}
-          		</span> 
+          		</span>
 							Copyright 2020 by {data.SiteAuthor} </CopyRight>
 					</div>
 				</ContainerLayout>

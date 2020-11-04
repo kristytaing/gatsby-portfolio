@@ -63,7 +63,7 @@ export const ResumeButton = styled.a`
   border: 5px solid #e8e7e7;
   display: block;
   margin: 6rem 0 2rem 0;
-  padding: 2rem;
+  padding: 1.5rem;
   text-align: center;
   text-transform: uppercase;
   border-radius: .5rem;

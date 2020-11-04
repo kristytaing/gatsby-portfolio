@@ -26,12 +26,8 @@ const portfolioWork = ({data, pageContext, location}) => {
                 <Title>
                   {work.frontmatter.title}
                 </Title>
-                <SmallText> 
-                  <Calendar className="align-middle text-primary" width="18" height="18" /> 
-                  <span className="align-middle"> date published : {work.frontmatter.date} </span>
-                </SmallText>
               </header>
-              
+
               <ArticleBody dangerouslySetInnerHTML={{ __html: work.html }} />
             </ArticlePost>
           </div>

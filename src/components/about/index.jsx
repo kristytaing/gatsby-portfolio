@@ -22,15 +22,13 @@ const About = () => {
           <AboutSection>
             <div>
               <Avatar fluid={data.placeholderImage.childImageSharp.fluid} alt="user photo" />
-              <SubTitle> Front End Developer</SubTitle>
             </div>
             <div>
               <Title> Hi, I’m Kristy </Title>
               <Text> I'm a software engineer based in <b className="text-primary lined-link">San Francisco</b>.</Text>
-              <Text> I love working with modern technologies, building and designing awesome projects. I prefer minimalistic & clean designs with strong user experience.</Text>
-              <Text> Behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
-              </Text>
-              <ResumeButton href="resume.pdf" target="_blank"> Download resume </ResumeButton>
+              <Text> I'm passionate about building great products with intuitive and delightful user experiences. As a creator with a detail-oriented mindset, I appreciate clean and functional design that enhances people's lives. </Text>
+              <Text> I'm currently building tech at Culdesac, a startup developing the first car-free neighborhood built from scratch in the US. </Text>
+              <ResumeButton href="resume.pdf" target="_blank"> View resume </ResumeButton>
             </div>
           </AboutSection>
         </ContainerLayout>
