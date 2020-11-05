@@ -17,6 +17,7 @@ export const Avatar =styled(Img)`
   width: 100%;
 `
 export const Title = styled.h1`
+  margin-top: 0;
   font-size: 3rem;
   font-family: "GT-Walsheim-Pro-Bold";
   @media(max-width: ${variables.breakpointPhone}) {

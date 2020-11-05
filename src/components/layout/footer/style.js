@@ -3,7 +3,7 @@ import variables from '../../../data/variables';
 
 export const FooterStyle = styled.footer`
 	padding-top: 1rem;
-	padding-bottom: 8rem;
+	padding-bottom: 4rem;
 	z-index: 0;
 	position: relative;
 	text-align: center;
