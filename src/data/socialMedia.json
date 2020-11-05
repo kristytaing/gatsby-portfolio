@@ -1,22 +1,22 @@
 [
   {
     "id": 0,
-    "name": "instagram",
+    "name": "Instagram",
     "url": "https://www.instagram.com/kristytaing"
   },
   {
     "id": 1,
-    "name": "linkedin",
+    "name": "LinkedIn",
     "url": "https://www.linkedin.com/in/kristytaing/"
   },
   {
     "id": 2,
-    "name": "twitter",
-    "url": "https://twitter.com/KristyTaing"
+    "name": "Facebook",
+    "url": "https://www.facebook.com/ktaing1883/"
   },
   {
     "id": 3,
-    "name": "github",
+    "name": "Github",
     "url": "https://github.com/kristytaing"
   }
 

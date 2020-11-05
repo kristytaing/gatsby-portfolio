@@ -36,6 +36,7 @@ export const GlobalStyle = createGlobalStyle`
       text-decoration: none;
     }
     b,
+    .bold,
     strong {
       font-weight: bolder;
       font-family: 'GT-Walsheim-Pro-Bold';
@@ -123,6 +124,7 @@ export const GlobalStyle = createGlobalStyle`
 
 .lined-link {
   display: inline-block;
+  text-decoration: none !important;
   position: relative;
   padding-top: .5em;
   padding-bottom: .25em;
