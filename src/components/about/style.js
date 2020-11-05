@@ -21,6 +21,7 @@ export const Title = styled.h1`
   font-size: 3rem;
   font-family: "GT-Walsheim-Pro-Bold";
   @media(max-width: ${variables.breakpointPhone}) {
+    margin-top: 2rem;
     font-size: 2rem;
   }
 `

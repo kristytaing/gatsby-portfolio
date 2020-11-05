@@ -126,7 +126,7 @@ export const GlobalStyle = createGlobalStyle`
   display: inline-block;
   text-decoration: none !important;
   position: relative;
-  padding-top: .5em;
+  padding-top: .25em;
   padding-bottom: .25em;
   transition: all .2s ease-out;
   will-change: transform, color;
