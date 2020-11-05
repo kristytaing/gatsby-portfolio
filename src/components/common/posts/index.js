@@ -25,7 +25,7 @@ export const SubTitle = styled.h3`
   font-size: 2.5rem;
   text-transform: capitalize;
   font-family: "GT-Walsheim-Pro-Bold";
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 `
 export const Text = styled.p`
   font-size: .98rem;
