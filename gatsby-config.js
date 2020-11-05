@@ -65,15 +65,7 @@ module.exports = {
         background_color: `#000`,
         theme_color: `#000`,
         display: `minimal-ui`,
-        icon: `src/assets/img/portfolio-icon.png`, // This path is relative to the root of the site.
-      },
-    },
-    {
-      resolve: `gatsby-source-github-api`,
-      options: {
-        token: process.env.GATSBY_GITHUB_API_TOKEN,
-        graphQLQuery: data.githubApiQuery,
-        variables: data.githubApiVariables,
+        icon: `src/assets/img/smile.svg`, // This path is relative to the root of the site.
       },
     },
     // https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
