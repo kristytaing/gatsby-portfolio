@@ -65,7 +65,7 @@ module.exports = {
         background_color: `#000`,
         theme_color: `#000`,
         display: `minimal-ui`,
-        icon: `src/assets/img/smile.svg`, // This path is relative to the root of the site.
+        icon: `src/assets/img/smiley-filled.svg`, // This path is relative to the root of the site.
       },
     },
     // https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
