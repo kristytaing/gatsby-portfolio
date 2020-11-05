@@ -4,7 +4,7 @@ tags: ['Android', 'Java', 'Kotlin', 'UI']
 category: Mobile UI
 image: './blog-image.png'
 date: "2018-05-01"
-description: "Intern at the Starbucks Tech Center's digital products team worked on the Starbucks mobile app for Android."
+description: "Intern at the Starbucks Tech Center's digital products team working on the Starbucks mobile app for Android."
 ---
 
 I used Java in a modified VIPER architecture to improve the Starbucks App (the most successful US mobile payment system).
